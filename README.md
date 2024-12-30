@@ -59,6 +59,8 @@ This project is licensed under the MIT License. See the LICENSE file for details
 - **Streamlit and Selenium**: For making web scraping accessible and user-friendly. 🛠️🌟
 
 ![WhatsApp Image 2024-12-27 at 10 02 12_4576e976](https://github.com/user-attachments/assets/9c34d345-782c-4fb7-b048-34e06236b966)
+![WhatsApp Image 2024-12-27 at 10 02 39_dd6198d2](https://github.com/user-attachments/assets/5d7a2548-0112-43f2-9744-08501df61586)
+
 ![WhatsApp Image 2024-12-27 at 10 02 57_ba259af5](https://github.com/user-attachments/assets/a2be7034-45ae-4c60-b4a8-1a6c396f3f7c)
 
 
