@@ -7,7 +7,8 @@ def scrape_website(website):
     print("Launching Chrome browser...")
     
     # Path to the ChromeDriver executable
-    chrome_driver_path = "./chromedriver.exe"
+    chrome_driver_path = r"C:\Users\sharo\Downloads\chromedriver-win64\chromedriver-win64\chromedriver.exe"
+
     options = webdriver.ChromeOptions()
     driver = webdriver.Chrome(service=Service(chrome_driver_path), options=options)
 
@@ -50,7 +51,5 @@ def clean_body_content(body_content):
 
     return cleaned_content
 
-# Function to split DOM content into smaller chunks
 def split_dom_content(dom_content, max_length=6000):
     return [dom_content[i:i + max_length] for i in range(0, len(dom_content), max_length)]
-
