@@ -1,6 +1,8 @@
 import streamlit as st
-from scraper import scrape_website, split_dom_content, clean_body_content, extract_body_content
+from scraper_utils import scrape_website, split_dom_content, clean_body_content, extract_body_content
 from parse import parse_with_ollama
+
+st.write("Main script is running...")
 
 # Streamlit title
 st.title("AI Web Scraper")
@@ -34,3 +36,4 @@ if "dom_content" in st.session_state:
             dom_chunks = split_dom_content(st.session_state.dom_content)
             result = parse_with_ollama(dom_chunks, parse_description)
             st.write(result)
+
